@@ -1,1 +1,141 @@
-/* You can add global styles to this file, and also import other style files */
+/* General Styles */
+body {
+  font-family: 'Amazon Ember', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+  color: #111;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Navigation Styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+nav .logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffa41c;
+}
+
+/* Header Styles */
+.header {
+  background: linear-gradient(135deg, #232f3e 0%, #131921 100%);
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.header .hero h1 {
+  font-size: 3.5em;
+  margin: 0;
+}
+
+.header .hero p {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.header .hero h2 {
+  font-size: 2.2em;
+  margin: 20px 0;
+}
+
+.header .cta-button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 1em;
+  background-color: #ffa41c;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.header .cta-button:hover {
+  background-color: #ff9900;
+}
+
+/* Features Styles */
+.features {
+  padding: 70px 0;
+  background-color: #fff;
+}
+
+.features .container {
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.feature {
+  background-color: #f1f1f1;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.feature:hover {
+  transform: translateY(-10px);
+}
+
+.feature .icon {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+  color: #ffa41c;
+}
+
+.feature h3 {
+  margin: 10px 0;
+  font-size: 1.4em;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #232f3e;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer p {
+  margin: 0;
+}
