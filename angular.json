@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "qorva-ui:build:production"
+              "buildTarget": "qorva-ui:build:production"
             },
             "development": {
-              "browserTarget": "qorva-ui:build:development"
+              "buildTarget": "qorva-ui:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "qorva-ui:build"
+            "buildTarget": "qorva-ui:build"
           }
         },
         "test": {
